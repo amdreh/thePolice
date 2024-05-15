@@ -2,5 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    transition: all 0.3s ease;
+    /* font-family: Poppins, sans-serif; */
 }
 
+.card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.umCard {
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 1); */
+}
