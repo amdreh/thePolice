@@ -8,10 +8,14 @@
     /* font-family: Poppins, sans-serif; */
 }
 
-.card-img-overlay {
-    background-color: rgba(0, 0, 0, 0.5);
+html body {
+    background: linear-gradient(to top, black, white);
 }
 
-.umCard {
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 1); */
+.everyCard {
+    border-radius: 5%;
+}
+
+.card-header {
+    font-weight: bold;
 }
