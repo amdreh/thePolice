@@ -45,3 +45,59 @@ header {
     background-color: black;
     color: white;
 }
+
+.carousel-item {
+    position: relative;
+    
+}
+.carousel img {
+    filter: brightness(1.38);
+}
+
+.carousel-item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2) 50%, transparent 50%);
+    background-size: 69% 2px; /* Ajuste a altura das linhas de varredura aqui */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial Black;
+    display: flex;
+    align-items:end; 
+    justify-content: center;
+    font-size: 20vw;
+    color: rgb(255,255,255, 0.9);
+    border: 1vw ridge rgba(255, 255, 255, 0.5);
+    
+    
+}
+
+.overlay1 {
+    background-color: rgba(255, 191, 0, 0.5); /* Amarelo-laranja (âmbar) */
+    
+}
+.overlay2 {
+     background-color: rgba(255, 83, 73, 0.5); /* Vermelho-laranja (vermelho-tijolo) */
+}
+.overlay3 {
+     background-color: rgba(199, 21, 133, 0.5); /* Vermelho-violeta (púrpura) */
+}
+.overlay4 {
+     background-color: rgba(75, 0, 130, 0.5); /* Azul-violeta (índigo) */
+}
+.overlay5 {
+     background-color: rgba(0, 128, 128, 0.5); /* Azul-verde (turquesa) */
+}
+.overlay6 {
+     background-color: rgba(154, 205, 50, 0.5); /* Amarelo-verde (lima) */
+}
