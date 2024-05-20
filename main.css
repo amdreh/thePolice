@@ -9,7 +9,7 @@
 }
 
 html body {
-    background: linear-gradient(to top, black, white);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), white);
 }
 
 .card {
@@ -23,10 +23,9 @@ html body {
     font-size: large;
 }
 
-h1 {
+header h1 {
     font-family: Helvetica, sans-serif;
     text-align: center;
-    
 }
 
 #thePolice {
@@ -41,10 +40,12 @@ h1 {
     font-size:medium;
 }
 
-header {
+header,
+.subtitle {
     background-color: black;
     color: white;
 }
+
 
 .carousel-item {
     position: relative;
@@ -61,8 +62,9 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.2) 50%, transparent 50%);
-    background-size: 69% 2px; /* Ajuste a altura das linhas de varredura aqui */
+    background-image: linear-gradient(rgba(138, 138, 138, 0.138) 50%, transparent 50%);
+    background-size: 69% 2px;
+    
 }
 
 .overlay {
@@ -74,30 +76,56 @@ header {
     font-family: Arial Black;
     display: flex;
     align-items:end; 
-    justify-content: center;
-    font-size: 20vw;
-    color: rgb(255,255,255, 0.9);
-    border: 1vw ridge rgba(255, 255, 255, 0.5);
-    
-    
+    justify-content:left;
+    font-size: 8vw;
+    filter: saturate(10);
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    padding-left: 5vw;
 }
 
 .overlay1 {
-    background-color: rgba(255, 191, 0, 0.5); /* Amarelo-laranja (âmbar) */
+    background-color: rgb(255, 0, 0, 0.2);
+
     
 }
 .overlay2 {
-     background-color: rgba(255, 83, 73, 0.5); /* Vermelho-laranja (vermelho-tijolo) */
+    background-color: rgb(0, 128, 0, 0.2); 
+
 }
 .overlay3 {
-     background-color: rgba(199, 21, 133, 0.5); /* Vermelho-violeta (púrpura) */
+    background-color: rgb(0, 0, 255, 0.2); 
+
 }
-.overlay4 {
-     background-color: rgba(75, 0, 130, 0.5); /* Azul-violeta (índigo) */
+
+.subtitle {
+    margin-top: 3vh;   
+    font-family: Arial Black;
+    display: grid;
+    place-items: center;
+    
 }
-.overlay5 {
-     background-color: rgba(0, 128, 128, 0.5); /* Azul-verde (turquesa) */
+
+header {
+    margin-bottom: 4vw;
 }
-.overlay6 {
-     background-color: rgba(154, 205, 50, 0.5); /* Amarelo-verde (lima) */
+
+.title h1 {
+    font-size: 30px;
+}
+
+.thePoliceLogo {
+    /* width: 40%; */
+    padding: 7% 0;
+    align-items: center;
+}
+
+header img {
+    display: grid;
+    
+}
+
+.footer {
+    text-align: center;
+    margin: 10px 0;
 }
